@@ -1,0 +1,19 @@
+ESP8266 chip operation steps(Commands)¡G
+
+1. Download and Install Python 3.10.X (https://www.python.org/downloads/)
+
+2. python -V (version verified)
+
+3. pip install esptool (install ESP8266 module for python)
+
+4. esptool.py --port COM? erase_flash (esp8266 memory clear)
+
+5. esptool.py --port COM4 --baud 460800 write_flash --flash_size=detect 0 D:\esp8266.bin
+(ESP8266 micropython operation system install)
+
+6. pip install adafruit-ampy (DOS command module install)
+
+7. (DOS commands for file, download and upload) 
+ampy -p com? ls  (show files)
+ampy -p com? get filename (download file)
+ampy -p com? put filename (upload file)

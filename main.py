@@ -13,6 +13,7 @@ dsp.temp(0, 18)
 dsp.humid(0, 38)
 
 interval = 3000
+# testetss
 
 def readDHT():
     d.measure()
